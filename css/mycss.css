@@ -1,0 +1,103 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+#slide-2 .bcg p {
+	width: 95%;
+	text-align: justify;
+}
+
+nav a {
+	border-width: 1px;
+	border-style: none; 
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	font-size: 8pt;
+	color:rgba(255,255,255,0.75);
+}
+
+.entry-header nav a:hover {
+	color:rgba(255,255,255,1);
+}
+
+.entry-header {
+	display: block;
+	text-align: center;
+}
+
+.entry-header {
+	height: 0%;
+}
+
+.playerradar {
+	position: relative; 
+	left: 180px;
+	top: 50px;
+	z-index: 100;
+}
+
+.legendDiv {
+	position: relative;
+	left: 450px;
+	top: -40px;
+	border-width: 1px;
+	/*background-color: #00122E;*/
+	width: 90px;
+	height: 50px;
+	color: rgb(255,255,255);
+}
+
+.circleRooney {
+	position: relative;
+	left: -20px;
+	bottom: 37px;
+    background: rgba(220,220,220,1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.circleAv {
+	position: relative;
+	left: -20px;
+	bottom: 25px;
+    background: rgba(151,187,205,1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.leadtitle {
+	position: relative;
+	top: -50px;
+}
+
+.reportdownload {
+	/*z-index: 1000;*/
+	position: relative;
+	top: 100px;
+
+}
+
+.contact {
+	z-index: 1;
+}
+
+.playerdesc {
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: justify;
+	position: relative;
+	top: 30px;
+	color: rgb(255,255,255);
+}
