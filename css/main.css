@@ -144,13 +144,13 @@ main {
 	width: 100%;
 }
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('/img/bernabeuhq.jpg')}
+#slide-1 .bcg {background-image:url('http://imgur.com/a10DdwF')}
 
 /* Slide 2 */
-#slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center;}
+#slide-2 .bcg {background: none; background-color: #010101; height: 400px; text-align: center;}
 
 /* Slide 3 */
-#slide-3 .bcg {background-color: rgb(56,56,56)}
+#slide-3 .bcg {background-color: rgb(25,25,25)}
 
 
 /* Slide 4 */
@@ -162,7 +162,7 @@ main {
 
 /* Slide 5 */
 #slide-5 {position: relative;}
-#slide-5 .bcg {background-image:url('../img/bcg_slide-5.jpg')}
+#slide-5 .bcg {background-image:url('../img/bayern_dortmund.jpg')}
 #slide-5 .bcg2 {background-image:url('../img/bcg_slide-5b.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
 #slide-5 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
 
@@ -176,13 +176,15 @@ main {
 }
 
 .hsContent {
+    position: relative;
 	max-width: 450px;
 	margin: -150px auto 0 auto;
 	display: table-cell;
 	vertical-align: middle;
 	color: #ebebeb;
 	padding: 0 8%;
-	text-align: center
+    z-index: 1001;
+	
 }
 	.hsContent h2,
 	.copy h2 {
@@ -195,6 +197,7 @@ main {
 		width: 400px;
 		margin:  auto;
 		color: #b2b2b2;
+        text-align: center
 
 	}
 	.hsContent a {
