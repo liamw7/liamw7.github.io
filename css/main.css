@@ -144,7 +144,7 @@ main {
 	width: 100%;
 }
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('http://imgur.com/a10DdwF')}
+#slide-1 .bcg {background-image:url('http://imgur.com/a10DdwF.png')}
 
 /* Slide 2 */
 #slide-2 .bcg {background: none; background-color: #010101; height: 400px; text-align: center;}
